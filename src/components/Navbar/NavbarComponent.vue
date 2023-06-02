@@ -1,22 +1,23 @@
-<script>
-export default {
-  props: {
-    brandName: String,
-  },
-  data() {
-    return {
-      routes: [],
-    };
-  },
-  created() {
-    this.$router.options.routes.forEach((route) => {
-      this.routes.push({
-        name: route.name,
-        path: route.path,
-      });
+<script setup>
+import { ref, onMounted } from 'vue';
+import { useRouter } from "vue-router";
+
+const router = useRouter();
+const routes = ref([]);
+
+const getRoutes = () => {
+
+  router.options.routes.forEach((route) => {
+    routes.value.push({
+      name: route.name,
+      path: route.path,
     });
-  },
+  });
 };
+
+onMounted(() => {
+  getRoutes();
+});
 </script>
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark color-navbar  fixed-top">
@@ -39,9 +40,9 @@ export default {
       <div class="collapse navbar-collapse" id="navbarS">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item" v-for="route in routes" :key="route">
-            <router-link :to="route.path" class="nav-link">{{
+            <RouterLink :to="route.path" class="nav-link">{{
               route.name
-            }}</router-link>
+            }}</RouterLink>
           </li>
         </ul>
       </div>
