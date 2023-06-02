@@ -99,7 +99,7 @@
           </div>
           <div class="carousel-item">
             <div class="container-carusel">
-              <img class="apuntes-imagenes" src="../../assets/img/s1.1.png">
+              <img class="apuntes-imagenes" src="../../assets/img/s1_1.png">
               <p class="apuntes-texto">Semana # 1</p>
             </div>
           </div>
@@ -111,19 +111,19 @@
           </div>
           <div class="carousel-item">
             <div class="container-carusel">
-              <img class="apuntes-imagenes" src="../../assets/img/s2.1.png">
+              <img class="apuntes-imagenes" src="../../assets/img/s2_1.png">
               <p class="apuntes-texto">Semana # 2</p>
             </div>
           </div>
           <div class="carousel-item">
             <div class="container-carusel">
-              <img class="apuntes-imagenes" src="../../assets/img/s2.2.png">
+              <img class="apuntes-imagenes" src="../../assets/img/s2_2.png">
               <p class="apuntes-texto">Semana # 2</p>
             </div>
           </div>
           <div class="carousel-item">
             <div class="container-carusel">
-              <img class="apuntes-imagenes" src="../../assets/img/s2.3.png">
+              <img class="apuntes-imagenes" src="../../assets/img/s2_3.png">
               <p class="apuntes-texto">Semana # 2</p>
             </div>
           </div>
@@ -135,13 +135,13 @@
           </div>
           <div class="carousel-item">
             <div class="container-carusel">
-              <img class="apuntes-imagenes" src="../../assets/img/s3.1.png">
+              <img class="apuntes-imagenes" src="../../assets/img/s3_1.png">
               <p class="apuntes-texto">Semana # 3</p>
             </div>
           </div>
           <div class="carousel-item">
             <div class="container-carusel">
-              <img class="apuntes-imagenes" src="../../assets/img/s3.2.png">
+              <img class="apuntes-imagenes" src="../../assets/img/s3_2.png">
               <p class="apuntes-texto">Semana # 3</p>
             </div>
           </div>
@@ -153,13 +153,13 @@
           </div>
           <div class="carousel-item">
             <div class="container-carusel">
-              <img class="apuntes-imagenes" src="../../assets/img/s4.1.png">
+              <img class="apuntes-imagenes" src="../../assets/img/s4_1.png">
               <p class="apuntes-texto">Semana # 4</p>
             </div>
           </div>
           <div class="carousel-item">
             <div class="container-carusel">
-              <img class="apuntes-imagenes" src="../../assets/img/s4.2.png">
+              <img class="apuntes-imagenes" src="../../assets/img/s4_2.png">
               <p class="apuntes-texto">Semana # 4</p>
             </div>
           </div>
@@ -171,7 +171,7 @@
           </div>
           <div class="carousel-item">
             <div class="container-carusel">
-              <img class="apuntes-imagenes" src="../../assets/img/s5.1.png">
+              <img class="apuntes-imagenes" src="../../assets/img/s5_1.png">
               <p class="apuntes-texto">Semana # 5</p>
             </div>
           </div>
