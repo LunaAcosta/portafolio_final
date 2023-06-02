@@ -1,13 +1,5 @@
-<script>
+<script setup>
 import Segundo from "../components/Segundo/Segundo.vue";
-
-export default (await import('vue')).defineComponent({
-    name: "SegundoView",
-    components: {
-        Segundo,
-    },
-
-});
 </script>
 <template>
     <Segundo />
