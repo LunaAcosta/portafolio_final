@@ -4,7 +4,7 @@ import Footer from '../Footer/FooterComponent.vue'
 </script>
 
 <template>
-  <main>
+  <main> 
     <!-- Seccion Introduccion -->
     <section class="container section-introduccion">
       <div class="contenido-introduccion">
@@ -180,8 +180,6 @@ import Footer from '../Footer/FooterComponent.vue'
               <p class="apuntes-texto">Semana # 5</p>
             </div>
           </div>
-          
-
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#apuntes-carrusel" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -193,57 +191,74 @@ import Footer from '../Footer/FooterComponent.vue'
         </button>
       </div>
     </section>
-    <!-- Seccion Proyectos  -->
-    <section  class="container proyectos-recientes">
-      <div class="titulo-sumario">
-        <h1>Proyectos del computo I</h1>
-      </div>
 
-      <div class="container text-center proyectos-contenedor">
-      <div class="row">
-        <!-- Proyecto 1 -->
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="proyecto">
-            <img src="../../assets/img/tarea1.png" alt="Proyecto 1">
-            <div class="overlay">
-              <p>Proyecto 1</p>
-            </div>
-          </div>
-        </div>
-        <!-- Proyecto 2 -->
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="proyecto">
-            <img src="../../assets/img/tarea1.png" alt="Proyecto 1">
-            <div class="overlay">
-              <p>Proyecto 2</p>
-            </div>
-          </div>
-        </div>
-        <!-- Proyecto 3 -->
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="proyecto">
-            <img src="../../assets/img/tarea1.png" alt="Proyecto 1">
-            <div class="overlay">
-              <p>Proyecto 3</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      </div>
-      <div class="text-center">
-          <a href="http://github.com/LunaAcosta" class="boton" target="_blank" rel="noopener noreferrer">Ver mas proyectos</a>
-      </div> 
-    </section>
+    <!-- Seccion Proyectos  -->
     <section class="container">
       <div class="titulo-sumario">
-        <h1>SEccion </h1>
-
+            <h1>Tareas del computo I</h1>
       </div>
-
+      <div id="tareas-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container-carusel">
+              <img class="tareas-imagenes" src="../../assets/img/tarea1.png">
+              <div class="testimonio-info">
+                <p class="cargo">Sitio Html BootStrap JavaScript</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container-carusel">
+              <img class="tareas-imagenes" src="../../assets/img/tarea2.png">
+              <div class="testimonio-info">
+                <p class="cargo">Sitio Html BootStrap JavaScript</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container-carusel">
+              <img class="tareas-imagenes" src="../../assets/img/tarea3.png">
+              <div class="testimonio-info">
+                <p class="cargo">Sitio Html BootStrap JavaScript</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#tareas-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#tareas-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
     </section>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Seccion Investigaciones -->
+    <section class="container">
+      <div class="titulo-sumario">
+        <h1>Investigaciones del computo</h1>
+      </div>
+    </section>
+    
   </main>
   <Footer />
-</template>
+</template> 
 <style scoped>
 main {
   background-image: linear-gradient(to right top, #281483, #351e8c, #412896, #4d329f, #583ca9, #6846b1, #7851b8, #875cc0, #9d6ac8, #b17acf, #c589d7, #d79ae0);
@@ -368,60 +383,10 @@ main {
 
 /* Clases para la seccion proyectos */
 
-.proyectos-recientes {
-  padding: 10%;
-}
-
-.proyectos-recientes img {
-  height: 100%;
-  width: 100%;
-  padding: 10px;
-  border-radius: 10px;
-  display: block;
-  transition: all 0.2s ease;
-}
-
-.proyectos-contenedor {
-  padding-top: 60px;
-  margin-bottom: 40px;
-}
-
-.overlay {
-  transition: all 0.2s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.overlay p {
-  font-size: 25px;
-  font-weight: bold;
-  margin-bottom: 0;
-}
-
-.proyecto {
-  position: relative;
-}
-
-.proyecto:hover img {
-  opacity: 0.2;
-}
-
-.proyecto:hover .overlay {
-  opacity: 1;
-}
-
-.overlay .iconos-contenedor {
-  display: flex;
-}
-
-.overlay i {
-  color: black;
-  font-size: 60px;
-  margin: 10px;
+.tareas-imagenes {
+  height: 70%;
+  width: 70%;
+  margin: 10px 10px 20px 10px;
 }
 
 
@@ -513,6 +478,7 @@ main {
   }
 
 }
+
 
 @media  screen and (max-width: 467px) {
   .titulo-introduccion h1 {
