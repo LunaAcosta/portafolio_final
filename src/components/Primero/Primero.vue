@@ -1,4 +1,3 @@
-
 <script setup>
 import Footer from '../Footer/FooterComponent.vue'
 </script>
@@ -240,6 +239,7 @@ import Footer from '../Footer/FooterComponent.vue'
       <div class="titulo-sumario">
         <h1>Investigaciones del computo I</h1>
       </div>
+      
       <div class="contenedor-sumario">
         <div>
           <div class="contenido-sumario-titulo">
@@ -540,9 +540,13 @@ import Footer from '../Footer/FooterComponent.vue'
 </template> 
 <style scoped>
 main {
-  background-image: linear-gradient(to right top, #281483, #351e8c, #412896, #4d329f, #583ca9, #6846b1, #7851b8, #875cc0, #9d6ac8, #b17acf, #c589d7, #d79ae0);
-  color: white;
+  background: #1A1A1A;
+  color:#A19682;
 }
+main h3{
+  color:#40D291;
+}
+
 
 /* Clases seccion introduccion */
 .section-introduccion {
@@ -578,9 +582,13 @@ main {
 }
 
 .titulo-introduccion h1 {
-  font-size: 50px;
-  color: #FFFFFD;
-  font-weight: 700;
+ font-size: 70px;
+ font-weight: 900;
+ background: #CCC;
+ background: linear-gradient(to right, #41d392, #34cf9f, #2ecbaa, #33c6b2, #3fc1b8, #30bdc0, #26b8c6, #26b3cb, #00add7, #00a5e1, #369ce7, #5e90e7);
+ -webkit-text-fill-color: transparent;
+ -webkit-background-clip: text;
+
 }
 
 .texto-introduccion {
@@ -597,7 +605,7 @@ main {
   border-radius: 10px;
   text-transform: capitalize;
   transition: 0.3s;
-  background: #10D1F0;
+  background: #45B783;
   text-decoration: none;
 }
 
@@ -608,9 +616,13 @@ main {
 
 /* Clases seccion sumario */
 .titulo-sumario h1 {
-  font-size: 50px;
-  color: #FFFFFD;
-  font-weight: 700;
+  font-size: 70px;
+  font-weight: 900;
+  background: #CCC;
+  background: linear-gradient(to right, #41d392, #34cf9f, #2ecbaa, #33c6b2, #3fc1b8, #30bdc0, #26b8c6, #26b3cb, #00add7, #00a5e1, #369ce7, #5e90e7);
+ -webkit-text-fill-color: transparent;
+ -webkit-background-clip: text;
+  
   text-align: center;
 }
 
@@ -630,8 +642,10 @@ main {
 }
 
 .contenido-sumario-titulo h5 {
-  font-size: 20px;
+  font-size: 22px;
+  font-weight: 600;
   padding-bottom: 2%;
+  color: white;
 }
 
 .contenido-sumario-desarrollo {
@@ -816,8 +830,8 @@ main {
   }
 
   .img-introduccion a img {
-    width: 20%;
-    height: 20%;
+    width: 80%;
+    height: 80%;
   }
 
   .img-sumario a img {
