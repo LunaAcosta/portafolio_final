@@ -1,7 +1,7 @@
 <template>
   <main>
     <!-- Seccion portada -->
-    <section class="container">
+    <section class="container seccion-portada">
       <div class="contenido-portada">
             <div class="titulo-grande">
               <h1>UNIVERSIDAD GERARDO BARRIOS</h1>
@@ -31,6 +31,11 @@
   background-size: cover;
   background-position: center;
   color: black;
+}
+.seccion-portada {
+  height: 100vh;
+  width: 100%;
+  padding: 90px 10% 120px;
 }
 .contenido-portada {
   text-align: center;
