@@ -82,8 +82,8 @@ import Footer from '../Footer/FooterComponent.vue'
           <hr>
           <h5>Semana # 13</h5>
           <h6>Entrega de repositorio GIT - Laboratorio I - 30%</h6>
-          <h6>Entrega de Portafolio de Estudiante GIT - Laboratorio I - 30%</h6>
-          <h6>Parciales del computo I - 40%</h6>
+          <h6>Entrega de Portafolio de Estudiante - Laboratorio I - 30%</h6>
+          <h6>Parciales del computo II - 40%</h6>
         </div>
       </div>
 
@@ -868,4 +868,5 @@ main h3 {
   }
 }
 </style>
+
 
